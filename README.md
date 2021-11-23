@@ -1,6 +1,6 @@
 # DApp Supply Chain Project
 ## Introduction
-This code is part of the DApp Supply Chain Project for the Blockchain Developer Nanodegree by Udacity. The goal of this project is to implement a notary sistem to create, track and exchange ERC721 tokens on the ethereum network. For this project, a custom ERC-721 token called The Coolest Token (TCT) was implemented and deployed to the Rinkeby testnet.
+This code is part of the DApp Supply Chain Project for the Blockchain Developer Nanodegree by Udacity. The goal of this project is to implement a decentralized supply chain app on the ethereum network. For this project, a full coffee supply chain system was developed and deployed to the Rinkeby testnet.
 
 ## Development
 The project vas developed using the following software:
