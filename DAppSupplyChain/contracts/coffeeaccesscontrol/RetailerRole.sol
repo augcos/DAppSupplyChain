@@ -40,7 +40,6 @@ contract RetailerRole {
   // Define a function 'renounceRetailer' to renounce this role
   function renounceRetailer() public {
     _removeRetailer(msg.sender);
-    emit RetailerRoleRemoved(msg.sender);
   }
 
   // Define an internal function '_addRetailer' to add this role, called by 'addRetailer'

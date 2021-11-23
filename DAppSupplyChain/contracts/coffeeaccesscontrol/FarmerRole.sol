@@ -40,7 +40,6 @@ contract FarmerRole {
   // Define a function 'renounceFarmer' to renounce this role
   function renounceFarmer() public {
     _removeFarmer(msg.sender);
-    emit FarmerRoleRemoved(msg.sender);
   }
 
   // Define an internal function '_addFarmer' to add this role, called by 'addFarmer'
