@@ -8,7 +8,7 @@ The project vas developed using the following software:
 Node.js         v10.19.0
 npm             v8.1.1
 Truffle         v5.4.14
-OpenZeppelin    v2.3.0
+OpenZeppelin    v2.2.0
 Solidity        v0.5.16
 ```
 
