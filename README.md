@@ -49,12 +49,12 @@ migrate --reset --network rinkeby
 ```
 In order for this deployment to be successfull, you will need to do two changes to the project. First, create a file in the same directory as truffle-config.js named .secret with the mnemonic to you ethereum account. Next, add your Infura endpoint address to the infuraKey variable in the truffle-config.js file. You can already find the project deployed on the Rinkeby testnet here:
 ```
-    SupplyChain:        https://rinkeby.etherscan.io/address/0x870d3BDd0aEaA702129FDB464b9EEcCB1C457a93          
-    Ownable:            https://rinkeby.etherscan.io/address/0xE208784AAfF484CF0059968349300c6956EfE02E          
-    FarmerRole:         https://rinkeby.etherscan.io/address/0xD7fbE73f7fde19E6C405F0dD322eD945Ac379FF2          
-    DistributorRole:    https://rinkeby.etherscan.io/address/0x2cf59b0799c4dC47fA5b09EB20a7Da2628F0536C          
-    RetailerRole:       https://rinkeby.etherscan.io/address/0x279c0cDF42e73fab1CA673cB46Cc8318bf5C99F0          
-    ConsumerRole:       https://rinkeby.etherscan.io/address/0x03Fb85B275Ccd504DBcBe142bf8aAdcC23C2fA75
+SupplyChain:        https://rinkeby.etherscan.io/address/0x870d3BDd0aEaA702129FDB464b9EEcCB1C457a93          
+Ownable:            https://rinkeby.etherscan.io/address/0xE208784AAfF484CF0059968349300c6956EfE02E          
+FarmerRole:         https://rinkeby.etherscan.io/address/0xD7fbE73f7fde19E6C405F0dD322eD945Ac379FF2          
+DistributorRole:    https://rinkeby.etherscan.io/address/0x2cf59b0799c4dC47fA5b09EB20a7Da2628F0536C          
+RetailerRole:       https://rinkeby.etherscan.io/address/0x279c0cDF42e73fab1CA673cB46Cc8318bf5C99F0          
+ConsumerRole:       https://rinkeby.etherscan.io/address/0x03Fb85B275Ccd504DBcBe142bf8aAdcC23C2fA75
 ```
 Then, run the frontend from the terminal to interact with the contract using the command:
 ```
