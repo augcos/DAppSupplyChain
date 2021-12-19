@@ -36,7 +36,7 @@ Next, compile the code and deploy from the Truffle development enviroment using 
 compile
 migrate --reset
 ```
-Then, run the frontend from the terminal using the command:
+Then, run the frontend from the terminal to interact with the contract using the command:
 ```
 npm run dev
 ```
@@ -56,11 +56,9 @@ In order for this deployment to be successfull, you will need to do two changes 
     RetailerRole:       https://rinkeby.etherscan.io/address/0x279c0cDF42e73fab1CA673cB46Cc8318bf5C99F0          
     ConsumerRole:       https://rinkeby.etherscan.io/address/0x03Fb85B275Ccd504DBcBe142bf8aAdcC23C2fA75
 ```
-
-### Run DApp locally
-After exiting the truffle command line run the following command to launch the frontend:
+Then, run the frontend from the terminal to interact with the contract using the command:
 ```
-    npm run dev
+npm run dev
 ```
 
 
